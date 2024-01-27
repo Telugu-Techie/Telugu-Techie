@@ -56,7 +56,7 @@ void loop()
   Serial.println();
   Serial.print("Message : ");
   content.toUpperCase();
-  if (content.substring(1) == "83 C2 29 F7") 
+  if (content.substring(1) == "place you TAG number") 
   {
     Serial.println("Access granted");
     Serial.println();
